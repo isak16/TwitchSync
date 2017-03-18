@@ -1,0 +1,31 @@
+#videoIFrame{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+#videoPlayer{
+    height: 460px;
+    width: 520px;
+    z-index: 9999999;
+}
+
+#videoPlayerHeader{
+    position: absolute;
+    width: calc(100% - 50px);
+    height: 32px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    float: right;
+}
+
+#exit-button{
+    position: relative;
+    margin-top: 6px;
+    margin-right: -43px;
+    float: right;
+    height: 15px;
+    width: 15px;
+    background: url("images/cancel.png") no-repeat;
+    background-size: contain;
+}

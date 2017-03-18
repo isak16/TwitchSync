@@ -1,0 +1,22 @@
+{
+  "name": "twitchsync",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "dependencies": {
+    "mongodb": "^2.2.10",
+    "express": "^4.14.0",
+    "node-inspector": "^0.12.8",
+    "socket.io": "^1.4.8",
+    "videojs-youtube": "^2.1.1",
+    "video.js": "^5.11.6",
+    "request": "^2.75.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC"
+}

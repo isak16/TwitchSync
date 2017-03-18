@@ -1,0 +1,29 @@
+{
+  "name": "TwitchSynch",
+  "manifest_version": 2,
+  "content_scripts":          [ {
+    "matches":  [   "http://localhost:63342/*/*", "https://www.twitch.tv/*"],
+    "js":       [
+      "js/jquery-3.1.0.min.js",
+      "js/jquery-ui.min.js",
+      "js/injector.js",
+      "js/drag.js"
+    ],
+    "css" : [
+      "css/font-awesome.min.css",
+      "css/jquery-ui.css",
+      "css/contentMain.css"
+    ]
+  } ],
+  "version": "0.1",
+  "description": "Nothing atm",
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "mypopup.html"
+   },
+  "web_accessible_resources": [
+    "js/injector.js",
+    "video.html"
+  ]
+
+}
